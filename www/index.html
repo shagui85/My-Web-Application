@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+    <title>Page Title</title> 
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.2.0.min.js"></script>
+    <script src="phonegap.js"></script>
+</head> 
+
+<body> 
+
+<div data-role="page" id="page1" data-theme="b">
+
+    <div data-role="header">
+      <h1>ENCABEZADO</h1>
+    </div>
+
+    <div data-role="content">
+
+      <label for="slider-0">Input slider:</label>
+      <input type="range" name="slider" id="slider-0" value="60" min="0" max="100" />
+      <p><br/></p>
+
+      <ul data-role="listview">
+        <li>
+          <h3>Animals</h3>
+          <p>All your favorites from aarkvarks to zebras.</p>
+            <ul>
+              <li>Pets
+                <ul>
+                  <li><a href="index.html">Canary</a></li>
+                  <li><a href="index.html">Cat</a></li>
+                  <li><a href="index.html">Dog</a></li>
+                  <li><a href="index.html">Gerbil</a></li>
+                  <li><a href="index.html">Iguana</a></li>
+                  <li><a href="index.html">Mouse</a></li>
+                </ul>
+              </li>
+            </ul>
+      </ul>
+
+    </div>
+
+    <div data-role="footer">
+      <h1>PIE DE PÁGINA</h1>
+    </div>
+</div>
+
+</body>
+</html>
+
+<!--// El pie de página puede convertirse muy fácilmente 
+en una barra de navegación, como a continuación:
+
+<center>
+<div data-role="footer" class="ui-bar">
+<div data-role="controlgroup" data-type="horizontal">
+<a href="index.html" data-role="button">One</a>
+<a href="index.html" data-role="button">Two</a>
+<a href="index.html" data-role="button">Three</a>
+<a href="index.html" data-role="button">None</a>
+</div>            
+</div>
+</center> -->
